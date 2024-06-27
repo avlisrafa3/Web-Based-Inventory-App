@@ -1,0 +1,49 @@
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+form {
+    margin-bottom: 20px;
+}
+th {
+    background-color: #343a40;
+    color: #dc3838;
+}
+td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
